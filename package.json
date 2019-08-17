@@ -1,0 +1,24 @@
+{
+  "name": "webpack-leedom-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:plugin": "webpack --config webpack.plugin.js --mode production",
+    "build:loader": "webpack --config webpack.loader.js --mode production",
+    "build": "webpack --config webpack.build.js --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-loader": "^0.5.5",
+    "vuepress": "^1.0.3",
+    "webpack-sources": "^1.4.3"
+  },
+  "dependencies": {
+    "loader-utils": "^1.2.3",
+    "minimize": "^2.2.0"
+  }
+}
